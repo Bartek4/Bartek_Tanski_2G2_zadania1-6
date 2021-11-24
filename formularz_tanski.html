@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tanski.css" type="text/css" />
+</head>
+
+<body>
+    <from method="post">
+        <div id="tytul">
+            FORMULARZ INFORMACYJNY <br/> O SOBIE
+            <br/>
+        </div>
+        <div id="imie">
+
+            <input type="text" />
+            <br/> Podaj swoję imie
+
+        </div>
+        <div id="nazwisko">
+
+            <input type="text" />
+            <br/> Podaj swoję nazwisko
+
+        </div>
+        <div style="clear:both"></div>
+        <div id="mieszkanie">
+            <h3>Podaj swoje miasto</h3>
+
+            <input type="checkbox" /> Gdynia<br/>
+            <input type="checkbox" /> Poznań<br/>
+            <input type="checkbox" /> Gdańsk<br/>
+            <input type="checkbox" /> Warszawa<br/>
+            <input type="checkbox" /> Kraków<br/>
+
+        </div>
+        <div id="miasto">
+            <h3>Czy mieszkasz sam?</h3>
+
+            <input type="radio" name="dos" value="Kobieta"> Tak, mieszkam sam
+            <input type="radio" name="dos" value="Mężczyzna"> Nie, mieszkam z kimś
+
+        </div>
+        <div style="clear:both"></div>
+        <div id="wiek">
+            <h3>Ile masz lat?</h3>
+
+            <select name="wiek">
+                <option selected>1-15</option>
+                <option>16-21</option>
+                <option>22-34</option>
+                <option>35+</option>
+            </select>
+
+        </div>
+        <div id="opis">
+            <h3>Napisz kilka informacji na które jeszcze nie udzieliłeś odpowiedzi</h3>
+            <h3>(wybór dowolny)<h3>
+            <textarea name="Komentarz" cols="50" rows="10"></textarea>
+
+        </div>
+        <div id="haslo">
+            <h3>Utwórz hasło do formularza</h3>
+
+            <input type="password" />
+
+        </div>
+        <div style="clear:both"></div>
+        <div id="wyslanie">
+
+            <input type="submit" value="Wyślij"><br/>
+
+        </div>
+        <div id="restart">
+
+            <input type="reset" value="Wyczść dane">
+
+        </div>
+    </from>
+</body>
+
+</html>
